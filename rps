@@ -1,0 +1,48 @@
+# author: Rasch Marie Leduc <cleduc2818533@woonsocketschools.com>
+#  date written: 09/13/2024
+print("welcome to rock paper scissors lizard, spock!")
+print("Note, you will need a second person next to you in order to play.")
+Namee =input("What is P1's name?: ")
+Name =input("What is P2's name?: ")
+print("P1 will go first!")
+choice =input("What will you choose?: ")
+print("P2 will go second!")
+Choicee =input("What will you choose?: ")
+if Choicee == "rock" and choice == "paper":
+    print(Name, "wins!")
+if Choicee == "paper" and choice == "scissors":
+    print(Name, "wins!")
+if Choicee == "paper" and choice == "rock":
+    print(Namee, "wins!")
+if Choicee == "scissors" and choice == "paper":
+    print(Namee, "wins!")
+if Choicee == "paper" and choice == "paper":
+    print("its a draw")
+if Choicee == "rock" and choice == "rock":
+    print("its a draw")
+if Choicee == "scissors" and choice == "scissors":
+    print("its a draw")
+if Choicee == "lizard" and choice == "rock":
+    print(Namee, "wins!")
+if Choicee == "spock" and choice == "lizard":
+    print(Name, "wins!")
+if choice == "lizard" and choice == "spock":
+    print(Namee, "wins!")
+if choice == "rock" and choice == "lizard":
+    print(Name, "wins!")
+if choice == "scissors" and choice == "lizard":
+    print(Namee, "wins!")
+if choice == "lizard" and choice == "scissors":
+    print(Name, "wins!")
+if choice == "spock" and choice == "scissors":
+    print(Namee, "wins!")
+if choice == "scissors" and choice == "spock":
+    print(Name, "wins!")
+if choice == "paper" and choice == "spock":
+    print(Namee, "wins!")
+if choice == "spock" and choice == "paper":
+    print(Name, "wins!")
+if choice == "lizard" and choice == "paper":
+    print(Namee, "wins!")
+if choice == "paper" and choice == "lizard":
+    print(Name, "wins!")
